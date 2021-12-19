@@ -353,10 +353,10 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = "Il Cibernetico (Test Token)";
-    _symbol = "CIBE";
+    _name = "Ross";
+    _symbol = "RS";
     _decimals = 18;
-    _totalSupply = 10000000000000000000000000;
+    _totalSupply = 100000000000000000000000000;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
